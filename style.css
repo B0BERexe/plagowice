@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap');
+
+body{
+	background-color: #303030;
+	color: white;
+	font-family: 'Rowdies', cursive;
+	font-size: 16px;
+}
 
 .tile1
 {
 	margin-left: 5px;
     margin-right: 5px;
     margin-top: 20px;
-	width: 1330px;
+	width: 1320px;
 	height: 220px;
-	background-color: coral;
+	background-color: seagreen;
 	float: left;
 	text-align: center;
 }
@@ -26,4 +33,51 @@ h1{
     font-family: 'Rowdies', cursive;
     font-size: 24px;
     text-align: center;
+}
+
+.tile2{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+	width: 1320px;
+	height: 110px;
+	background-color: coral;
+	float: left;
+	text-align: center;
+}
+
+.tile3{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+	width: 1320px;
+	height: 820px;
+	background-color: skyblue;
+	float: left;
+}
+
+.ogloszenia{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+	width: 1320px;
+	height: 120px;
+	background-color: slateblue;
+	float: left;
+	text-align: center;
+}
+
+.spis{
+    text-decoration: none;
+    color: white;
+    font-family: 'Rowdies', cursive;
+    font-size: 14px;
+    text-align: center;
+}
+
+.rectangle
+{
+	width: 1280px;
+	margin: 20px;
+	text-align: center;
 }
